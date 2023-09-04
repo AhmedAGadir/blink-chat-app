@@ -3,6 +3,11 @@
 Deployed using Netlify: [https://blink-chat-app.netlify.app/](https://blink-chat-app.netlify.app/)
 
 ![Blink Chat App Demo](https://github.com/AhmedAGadir/blink-chat-app/blob/main/blink-chat-app.gif)
+![desktop no chat](screenshot-desktop-nochat-1.png)
+![desktop chat](screenshot-desktop-chat-1.png)
+![mobile edit](screenshot-mobile-edit-1.png)
+![mobile menu](screenshot-mobile-menu-1.png)
+![loading](screenshot-loading-1.png)
 
 ## Libraries
 
