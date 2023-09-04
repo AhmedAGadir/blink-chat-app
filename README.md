@@ -2,7 +2,7 @@
 
 Deployed using Netlify: [https://blink-chat-app.netlify.app/](https://blink-chat-app.netlify.app/)
 
-![Blink Chat App Demo](https://github.com/AhmedAGadir/blink-chat-app/blink-chat-app.gif)
+![Blink Chat App Demo](https://github.com/AhmedAGadir/blink-chat-app/blob/main/blink-chat-app.gif)
 
 ## Libraries
 
