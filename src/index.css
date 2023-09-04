@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* set variables */
+:root {
+	--blue-grey-050: #f0f4f8;
+	--blue-grey-100: #d9e2ec;
+	--blue-grey-200: #bcccdc;
+	--blue-grey-300: #9fb3c8;
+	--blue-grey-400: #829ab1;
+	--blue-grey-500: #627d98;
+	--blue-grey-600: #486581;
+	--blue-grey-700: #334e68;
+	--blue-grey-800: #243b53;
+	--blue-grey-900: #102a43;
+
+	--primary-050: #e6e6ff;
+	--primary-100: #c4c6ff;
+	--primary-200: #a2a5fc;
+	--primary-300: #8888fc;
+	--primary-400: #7069fa;
+	--primary-500: #5d55fa;
+	--primary-600: #4d3df7;
+	--primary-700: #3525e6;
+	--primary-800: #1d0ebe;
+	--primary-900: #0c008c;
+
+	--secondary-050: #effcf6;
+	--secondary-100: #c6f7e2;
+	--secondary-200: #8eedc7;
+	--secondary-300: #65d6ad;
+	--secondary-400: #3ebd93;
+	--secondary-500: #27ab83;
+	--secondary-600: #199473;
+	--secondary-700: #147d64;
+	--secondary-800: #0c6b58;
+	--secondary-900: #014d40;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: var(--blue-grey-050);
 }

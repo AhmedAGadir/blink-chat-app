@@ -1,0 +1,58 @@
+/* form */
+.input-message__form {
+	padding: 20px;
+	display: flex;
+	position: relative;
+}
+
+.input-message__input {
+	/* remove default input styles */
+	border: none;
+	outline: none;
+	/* add custom styles */
+	background: #f1f1f1;
+	border-radius: 5px;
+	padding: 10px 16px;
+	font-family: "Poppins", sans-serif;
+	line-height: 2;
+	border: 2px solid transparent;
+	flex-grow: 1;
+	font-size: 1rem;
+}
+
+.input-message__input:focus {
+	border: 2px solid var(--primary-400);
+}
+
+.input-message__input-editing:focus {
+	border: 2px solid var(--secondary-400);
+}
+
+.input-message__btn {
+	/* remove default btn styles */
+	border: none;
+	outline: none;
+
+	/* add custom styles */
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: var(--primary-600);
+	color: var(--blue-grey-100);
+	border-radius: 5px;
+	cursor: pointer;
+	width: 60px;
+	height: 57px;
+}
+
+.input-message__btn:hover {
+	background: var(--primary-700);
+}
+
+.input-message__btn-editing {
+	background: var(--secondary-600);
+}
+
+.input-message__btn-editing:hover {
+	background: var(--secondary-700);
+}
