@@ -52,6 +52,5 @@ html,
 body,
 #root {
 	height: 100vh;
-	height: fill-available;
 	height: -webkit-fill-available;
 }
