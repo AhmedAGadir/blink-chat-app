@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&display=swap");
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-/* set variables */
+/* theme variables */
 :root {
 	--blue-grey-050: #f0f4f8;
 	--blue-grey-100: #d9e2ec;
@@ -42,7 +36,22 @@
 	--secondary-900: #014d40;
 }
 
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: "Poppins", sans-serif;
 	background: var(--blue-grey-050);
+}
+
+html,
+body,
+#root {
+	height: 100vh;
+	height: fill-available;
+	height: -webkit-fill-available;
 }
